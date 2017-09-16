@@ -2,7 +2,7 @@ $(document).ready(function(){
 	/* =================
 		Countdown Timer
 	====================*/
-	$('.countdown-timer').countdown('2017/10/17', function(event) { // DEFINE YOUR DATE HERE
+	$('.countdown-timer').countdown('2017/09/25', function(event) { // DEFINE YOUR DATE HERE
 	   var $this = $(this).html(event.strftime(''
 	    + '<li><span class="time-number">%D</span> <span class="time-name">Days</span></li>'
 	    + '<li><span class="time-number">%H</span> <span class="time-name">Hours</span></li>'
